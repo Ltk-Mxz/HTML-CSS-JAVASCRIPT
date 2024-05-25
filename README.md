@@ -2,4 +2,5 @@
 <ol>
   <li>Email Validator</li>
   <li>Random Images</li>
+  <li>US Phone Number Validator</li>
 </ol>
