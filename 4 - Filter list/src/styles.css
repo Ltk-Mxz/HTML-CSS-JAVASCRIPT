@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 75%;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    font-size: 3rem;
+    border-radius: 5px;
+}
+
+ul{
+    width: 50%;
+}
+
+li{
+    list-style: none;
+    background-color: rgb(173, 92, 90);
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
